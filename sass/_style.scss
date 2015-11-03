@@ -1,0 +1,72 @@
+﻿@import "mymix";
+@import "fonts";
+@import "animation";
+//**********************************************************/
+//**********************************************************/
+body{
+  font-family: PTSansRegular;
+  color: #282d31;
+}
+textarea{
+  resize: none;
+  box-shadow: none;
+  @include def-border-radius(0px);
+}
+input{
+  box-shadow: none;
+  @include def-border-radius(0px);
+}
+button, input[type="reset"], input[type="button"], input[type="submit"] {
+  box-shadow: none;
+  @include def-border-radius(0px);
+}
+strong, b{
+  font-family: PTSansBold;
+}
+i{
+  font-family: PTSansItalic;
+}
+a{
+  //@include link(#373737, #373737);
+  &:focus{
+    outline: none;
+  }
+}
+pre{
+  white-space: normal;
+}
+h1, h2, h3, h4, h5, h6{
+  
+}
+input::-moz-placeholder {
+
+}
+textarea::-moz-placeholder {
+
+}
+input::-webkit-input-placeholder{
+
+}
+textarea::-webkit-input-placeholder{
+
+}
+input{
+  &:focus{
+    outline: none;
+  }
+}
+textarea{
+  &:focus{
+    outline: none;
+  }
+}
+.hide{
+  display: none;
+}
+.hidded{
+  visibility: hidden;
+}
+
+//**********************************************************/
+//**********************************************************/
+@import "animation";
