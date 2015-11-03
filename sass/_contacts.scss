@@ -1,0 +1,26 @@
+.contacts{
+  float: right;
+  &_phone{
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 6px;
+    @include before{
+      background: url('../image/phone.png') no-repeat;
+      width: 12px;
+      height: 18px;
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 1px;
+    }
+    p{
+      font-size: 17px;
+    }
+  }
+  &_address{
+    p{
+      font-family: OpenSansLight;
+      font-size: 11px;
+    }
+  }
+}

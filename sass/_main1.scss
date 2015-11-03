@@ -1,0 +1,35 @@
+.main1{
+  height: 439px;
+  background: url('../image/slider-1920-1.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  &_text{
+    padding: 125px 0px 35px 0px;
+    p{
+      font-family: OpenSansSemiBold;
+      color: #fdfdfd;
+      font-size: 19px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      text-align: center;
+      span{
+        background-color: #1d2124;
+        line-height: 48px;
+        @include def-opacity(0.7);
+        padding: 9px 12px;
+      }
+    }
+  }
+  &_link{
+    background-color: #bf5f41;
+    padding: 10px 15px;
+    @include link(#ffffff, #ffffff);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: OpenSansSemiBold;
+    font-size: 14.5px;
+    &:hover{
+      background-color: #a25037;
+    }
+  }
+}

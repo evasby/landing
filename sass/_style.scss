@@ -6,6 +6,8 @@
 body{
   font-family: PTSansRegular;
   color: #282d31;
+  background-color: #fcfcfd;
+  min-width: 1024px;
 }
 textarea{
   resize: none;
@@ -69,4 +71,9 @@ textarea{
 
 //**********************************************************/
 //**********************************************************/
-@import "animation";
+@import "inner";
+@import "header";
+@import "contacts";
+@import "webformat";
+@import "menu";
+@import "main1";
