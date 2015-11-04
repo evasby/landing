@@ -1,5 +1,6 @@
 .main4{
-  padding: 43px 0px 58px 0px;
+  padding: 43px 0px 40px 0px;
+  text-align: center;
   &_title{
     font-size: 21px;
     font-family: PTSansBold;
@@ -24,9 +25,24 @@
   }
   &_wrap{
     @include clearfix();
+    margin-bottom: 40px;
   }
   &_item{
     float: left;
     width: 33.33%;
+  }
+  &_link{
+    @include link(#bf5f41, #ffffff);
+    font-family: OpenSansSemiBold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 3px solid #bf5f41;
+    text-decoration: none;
+    padding: 6px 23px;
+    //@include def-transition(background-color, 0.2s);
+    @include def-transition(color, 0.2s);
+    &:hover{
+      background-color: #bf5f41;
+    }
   }
 }

@@ -116,7 +116,7 @@
             <p>Аудит существующей рекламной компании</p>
             <p>Определение пригодности вашей компании</p>
             <div class="tarif_price tarif_price__green">Бесплатно</div>
-            <a href="#" class="tarif_link tarif_link_green">Заказать тариф</a>
+            <a href="#" class="tarif_link tarif_link__green">Заказать тариф</a>
           </div>
         </div>
         <div class="main4_item">
@@ -131,7 +131,7 @@
             <p>Индивидуальный дизайн</p>
             <p>Установка CMS На ваш сайт</p>
             <div class="tarif_price tarif_price__blue">899$</div>
-            <a href="#" class="tarif_link tarif_link_blue">Заказать тариф</a>
+            <a href="#" class="tarif_link tarif_link__blue">Заказать тариф</a>
           </div>
         </div>
         <div class="main4_item">
@@ -152,11 +152,24 @@
             <p>А/В тестирование 1 месяц</p>
             <p>100% окупаемость проекта</p>
             <div class="tarif_price tarif_price__red">1 999$</div>
-            <a href="#" class="tarif_link tarif_link_red">Заказать тариф</a>
+            <a href="#" class="tarif_link tarif_link__red">Заказать тариф</a>
           </div>
         </div>
       </div>
+      <a href="#" class="main4_link">Заявка на индивидуальный рассчет</a>
     </div>
+  </div>
+  <div id="main5" class="main5">
+  	<div class="inner">
+  		<div class="main5_title"><span>Как мы работаем</span></div>
+  		<div class="main5_wrap">
+  			<div class="main5_item"><div class="main5_diamond"></div></div>
+  			<div class="main5_item"><div class="main5_diamond"></div></div>
+  			<div class="main5_item"><div class="main5_diamond"></div></div>
+  			<div class="main5_item"><div class="main5_diamond"></div></div>
+  			<div class="main5_item"><div class="main5_diamond"></div></div>
+  		</div>
+  	</div>
   </div>
     
 

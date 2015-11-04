@@ -303,6 +303,21 @@
     }
   }
 }
+@mixin after{
+  &:after{
+    content: "";
+    @content;
+  }
+  @include old-ie{
+    zoom: expression(
+    this.runtimeStyle.zoom="1",
+    this.appendChild( document.createElement("small") ).className="after"
+    );
+    .after{
+      @content;
+    }
+  }
+}
 //*********************************************************************************/
 //*********************************************************************************/
 /*&:before{
