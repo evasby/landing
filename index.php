@@ -190,6 +190,79 @@
       </ul>
     </div>
   </div>
+  <div id="main7" class="main7">
+  	<div class="inner">
+  		<div class="main7_title"><span>Отзывы наших клиентов</span></div>
+  		<div class="main7_wrap">
+  			<div class="main7_part">
+  				<div class="review-thumb">
+	  				<ul id="review_slider1" class="review-thumb_list">
+			  			<li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">0</a>
+			        </li>
+			        <li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">1</a>
+			        </li>
+			        <li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">2</a>
+			        </li>
+			        <li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">3</a>
+			        </li>
+			  		</ul>
+		  		</div>
+  			</div>
+  			<div class="main7_part main7_part__center">
+  				<div class="review-main">
+			  		<ul id="review_slider2" class="review-main_list">
+			  			<li class="review-main_item">
+			          <a href="#" class="review-main_link" style="background-image:url(image/down/main7.png);"></a>
+			          <div class="review-main_name">Петров В.В.</div>
+			          <div class="review-main_review">Классная компания кайфую от работы с ними</div>
+			          <a href="" class="review-main_origin">Оригинал отзыва</a>
+			        </li>
+			        <li class="review-main_item">
+			          <a href="#" class="review-main_link" style="background-image:url(image/down/main7.png);"></a>
+			          <div class="review-main_name">Петров В.В.</div>
+			          <div class="review-main_review">Классная компания кайфую от работы с ними</div>
+			          <a href="" class="review-main_origin">Оригинал отзыва</a>
+			        </li>
+			        <li class="review-main_item">
+			          <a href="#" class="review-main_link" style="background-image:url(image/down/main7.png);"></a>
+			          <div class="review-main_name">Петров В.В.</div>
+			          <div class="review-main_review">Классная компания кайфую от работы с ними</div>
+			          <a href="" class="review-main_origin">Оригинал отзыва</a>
+			        </li>
+			        <li class="review-main_item">
+			          <a href="#" class="review-main_link" style="background-image:url(image/down/main7.png);"></a>
+			          <div class="review-main_name">Петров В.В.</div>
+			          <div class="review-main_review">Классная компания кайфую от работы с ними</div>
+			          <a href="" class="review-main_origin">Оригинал отзыва</a>
+			        </li>
+			  		</ul>
+		  		</div>
+		  	</div>
+		  	<div class="main7_part">
+		  		<div class="review-thumb">
+			  		<ul id="review_slider3" class="review-thumb_list">
+			  			<li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">0</a>
+			        </li>
+			        <li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">1</a>
+			        </li>
+			        <li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">2</a>
+			        </li>
+			        <li class="review-thumb_item">
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">3</a>
+			        </li>
+			  		</ul>
+		  		</div>
+		  	</div>
+  		</div>
+  	</div>
+  </div>
     
 
   <footer class="footer">
