@@ -1,5 +1,6 @@
 .contacts{
   float: right;
+  margin-right: 20px;
   &_phone{
     position: relative;
     padding-left: 24px;
@@ -16,11 +17,29 @@
     p{
       font-size: 17px;
     }
+    &__footer{
+      padding-left: 0px;
+      @include before{
+        background: none;
+      }
+      p{
+        font-family: OpenSansLight;
+        color: #fdfdfd;
+        text-align: right;
+      }
+    }
   }
   &_address{
     p{
       font-family: OpenSansLight;
       font-size: 11px;
+    }
+    &__footer{
+      p{
+        color: #fdfdfd;
+        font-size: 10px;
+        text-align: right;
+      }
     }
   }
 }

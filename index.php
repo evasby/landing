@@ -20,7 +20,7 @@
   <!--<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
   <script type="text/javascript" src="dist/bg-loaded.js"></script>
   <script type="text/javascript" src="dist/jquery.placeholder.js"></script>
-  <script type="text/javascript" src="dist/jquery.bxslider.js"></script>
+  <script type="text/javascript" src="dist/jquery.bxslider.min.js"></script>
   <script type="text/javascript" src="dist/jquery.colorbox-min.js"></script>
   <script type="text/javascript" src="dist/jquery.waypoints.min.js"></script>
   <script type="text/javascript" src="dist/jquery.scrollTo.min.js"></script>
@@ -163,18 +163,44 @@
   	<div class="inner">
   		<div class="main5_title"><span>Как мы работаем</span></div>
   		<div class="main5_wrap">
-  			<div class="main5_item"><div class="main5_diamond"></div></div>
-  			<div class="main5_item"><div class="main5_diamond"></div></div>
-  			<div class="main5_item"><div class="main5_diamond"></div></div>
-  			<div class="main5_item"><div class="main5_diamond"></div></div>
-  			<div class="main5_item"><div class="main5_diamond"></div></div>
+  			<div class="main5_item"><div class="main5_image" style="background-image:url('image/down/main5-1.png');"></div><div class="main5_diamond"></div><div class="main5_text">Метод исследования, характеризующийся выделением и изучением отдельных частей объектов исследования (например, анализ крови, функциональный анализ, анализ требований). Без уточнения может</div><div class="main5_descr">Анализ</div></div>
+  			<div class="main5_item"><div class="main5_image" style="background-image:url('image/down/main5-2.png');"></div><div class="main5_diamond"></div><div class="main5_text">Метод исследования, характеризующийся выделением и изучением отдельных частей объектов исследования (например, анализ крови, функциональный анализ, анализ требований). Без уточнения может</div><div class="main5_descr">Создание</div></div>
+  			<div class="main5_item"><div class="main5_image" style="background-image:url('image/down/main5-3.png');"></div><div class="main5_diamond"></div><div class="main5_text">Метод исследования, характеризующийся выделением и изучением отдельных частей объектов исследования (например, анализ крови, функциональный анализ, анализ требований). Без уточнения может</div><div class="main5_descr">Реклама</div></div>
+  			<div class="main5_item"><div class="main5_image" style="background-image:url('image/down/main5-4.png');"></div><div class="main5_diamond"></div><div class="main5_text">Метод исследования, характеризующийся выделением и изучением отдельных частей объектов исследования (например, анализ крови, функциональный анализ, анализ требований). Без уточнения может</div><div class="main5_descr">Оптимизация</div></div>
+  			<div class="main5_item"><div class="main5_image" style="background-image:url('image/down/main5-5.png');"></div><div class="main5_diamond"></div><div class="main5_text">Метод исследования, характеризующийся выделением и изучением отдельных частей объектов исследования (например, анализ крови, функциональный анализ, анализ требований). Без уточнения может</div><div class="main5_descr">А/В Тест</div></div>
   		</div>
   	</div>
+  </div>
+  <div class="main6" id="main6">
+    <div class="inner">
+      <div class="main6_title"><span>Наши клиенты</span></div>
+      <ul class="main6_list">
+        <li class="main6_item">
+          <a href="#" class="main6_link"><img src="image/down/main6-1.png" alt=""></a>
+        </li>
+        <li class="main6_item">
+          <a href="#" class="main6_link"><img src="image/down/main6-2.png" alt=""></a>
+        </li>
+        <li class="main6_item">
+          <a href="#" class="main6_link"><img src="image/down/main6-3.png" alt=""></a>
+        </li>
+        <li class="main6_item">
+          <a href="#" class="main6_link"><img src="image/down/main6-4.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
   </div>
     
 
   <footer class="footer">
-    
+    <div class="inner">
+      <div class="contacts">
+        <div class="contacts_phone contacts_phone__footer"><p>+375 44 732 05 09</p></div>
+        <div class="contacts_address contacts_address__footer"><p>г.Минск Притыцкого 29 оф 522</p></div>
+      </div>
+      <a href="/layout/" class="webformat webformat__footer">Веб студия Webformat</a>
+      <div class="copyright"><p>Студия Webformat | 2015 | Все права защищены!</p></div>
+    </div>
   </footer>
 </body>
 </html>

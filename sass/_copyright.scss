@@ -1,0 +1,11 @@
+.copyright{
+  float: left;
+  padding: 10px 0px 0px 10px;
+  p{
+    @include def-opacity(0.5);
+    border-top: 4px solid #41acbf;
+    color: #41acbf;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+}
