@@ -37,28 +37,28 @@
       <nav class="menu">
         <ul class="menu_list">
           <li class="menu_item">
-            <a href="#header" class="menu_link">Главная</a>
+            <a href="#main1" class="menu_link">Главная</a>
           </li>
           <li class="menu_item">
-            <a href="#header" class="menu_link">О нас</a>
+            <a href="#main2" class="menu_link">О нас</a>
           </li>
           <li class="menu_item">
-            <a href="#header" class="menu_link">Портфолио</a>
+            <a href="#main3" class="menu_link">Портфолио</a>
           </li>
           <li class="menu_item">
-            <a href="#header" class="menu_link">Тарифы</a>
+            <a href="#main4" class="menu_link">Тарифы</a>
           </li>
           <li class="menu_item">
-            <a href="#header" class="menu_link">Отзывы</a>
+            <a href="#main7" class="menu_link">Отзывы</a>
           </li>
           <li class="menu_item">
-            <a href="#header" class="menu_link">Котнтакты</a>
+            <a href="#main8" class="menu_link">Котнтакты</a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
-  <div id="main1" class="main1">
+  <section id="main1" class="main1">
     <div class="inner">
       <div class="main1_text">
         <p><span>Создание landing page с гарантией</span></p>
@@ -66,8 +66,8 @@
       </div>
       <a href="#" class="main1_link">Связаться с нами</a>
     </div>
-  </div>
-  <div id="main2" class="main2">
+  </section>
+  <section id="main2" class="main2">
     <div class="inner">
       <div class="main2_title"><span>О компании Webformat</span></div>
       <div class="main2_wrap">
@@ -88,8 +88,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <div id="main3" class="main3">
+  </section>
+  <section id="main3" class="main3">
     <div class="inner">
       <div class="main3_title"><span>Наши работы</span></div>
       <div class="main3_wrap">
@@ -104,8 +104,8 @@
         <a href="#" class="main3_link"><img src="image/down/main3-9.jpg" alt=""><div class="main3_text"><p>Call of Adam</p></div></a>
       </div>
     </div>
-  </div>
-  <div id="main4" class="main4">
+  </section>
+  <section id="main4" class="main4">
     <div class="inner">
       <div class="main4_title"><span>Наши тарифы</span></div>
       <div class="main4_wrap">
@@ -158,8 +158,8 @@
       </div>
       <a href="#" class="main4_link">Заявка на индивидуальный рассчет</a>
     </div>
-  </div>
-  <div id="main5" class="main5">
+  </section>
+  <section id="main5" class="main5">
   	<div class="inner">
   		<div class="main5_title"><span>Как мы работаем</span></div>
   		<div class="main5_wrap">
@@ -170,8 +170,8 @@
   			<div class="main5_item"><div class="main5_image" style="background-image:url('image/down/main5-5.png');"></div><div class="main5_diamond"></div><div class="main5_text">Метод исследования, характеризующийся выделением и изучением отдельных частей объектов исследования (например, анализ крови, функциональный анализ, анализ требований). Без уточнения может</div><div class="main5_descr">А/В Тест</div></div>
   		</div>
   	</div>
-  </div>
-  <div class="main6" id="main6">
+  </section>
+  <section class="main6" id="main6">
     <div class="inner">
       <div class="main6_title"><span>Наши клиенты</span></div>
       <ul class="main6_list">
@@ -189,8 +189,8 @@
         </li>
       </ul>
     </div>
-  </div>
-  <div id="main7" class="main7">
+  </section>
+  <section id="main7" class="main7">
   	<div class="inner">
   		<div class="main7_title"><span>Отзывы наших клиентов</span></div>
   		<div class="main7_wrap">
@@ -198,16 +198,28 @@
   				<div class="review-thumb">
 	  				<ul id="review_slider1" class="review-thumb_list">
 			  			<li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">0</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			        <li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">1</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			        <li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">2</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			        <li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">3</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			  		</ul>
 		  		</div>
@@ -246,25 +258,61 @@
 		  		<div class="review-thumb">
 			  		<ul id="review_slider3" class="review-thumb_list">
 			  			<li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">0</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			        <li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">1</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			        <li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">2</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			        <li class="review-thumb_item">
-			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt="">3</a>
+			          <a href="#" class="review-thumb_link"><img src="image/down/main7.png" alt=""></a>
+                <div class="review-thumb_name">Петров В.В.</div>
+                <div class="review-thumb_review">Классная компания кайфую от работы с ними</div>
+                <a href="" class="review-thumb_origin">Оригинал отзыва</a>
 			        </li>
 			  		</ul>
 		  		</div>
 		  	</div>
   		</div>
+      <a href="#" class="main7_link">Смотреть все отзывы</a>
   	</div>
-  </div>
-    
-
+  </section>
+  <section id="main8" class="main8">
+    <div class="inner">
+      <div class="main8_title"><span>Остались вопросы?</span></div>
+      <div class="main8_descr">Если у вас остались вопросы, то вы можете задать их нам</div>
+      <div class="form-main">
+        <form action="">
+          <div class="form-main_inner">
+            <input id="edit-submitted-name" class="webform-hints-field form-text" type="text" maxlength="128" size="60" value="" name="submitted[name]" placeholder="Имя:" title="Имя:">
+          </div>
+          <div class="form-main_inner">
+            <input id="edit-submitted-phone" class="webform-hints-field form-text required" type="text" maxlength="128" size="60" value="" name="submitted[phone]" placeholder="Телефон:" title="Телефон:" required="required">
+          </div>
+          <div class="form-main_inner">
+            <input id="edit-submitted-phone" class="webform-hints-field form-text required" type="text" maxlength="128" size="60" value="" name="submitted[phone]" placeholder="Email:" title="Email:" required="required">
+          </div>
+          <div class="form-main_button">
+            <input id="edit-webform-ajax-submit-21" class="webform-submit button-primary form-submit ajax-processed" type="submit" value="Задать вопрос" name="op" >
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="main9" class="main9">
+    <div id="gmap"></div>
+  </section>
   <footer class="footer">
     <div class="inner">
       <div class="contacts">

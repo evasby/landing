@@ -1,4 +1,44 @@
 .review-thumb	{
+  padding: 61px 20px 0px 20px;
+  &_item{
+    text-align: center;
+  }
+  &_link{
+    display: block;
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    @include def-border-radius(50%);
+    margin-bottom: 11px;
+  }
+  &_name{
+    font-family: OpenSansSemiBold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  &_review{
+    font-size: 13px;
+    font-family: OpenSansRegular;
+    @include def-opacity(0.85);
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  &_origin{
+    @include link(#282d31, #282d31);
+    font-size: 12px;
+    font-family: OpenSansLight;
+    text-transform: uppercase;
+    @include def-opacity(0.85);
+    text-align: center;
+    &:hover{
+      @include def-opacity(1);
+      text-decoration: none;
+    }
+  }
 	/**
    * BxSlider v4.1.2 - Fully loaded, responsive content slider
    * http://bxslider.com
@@ -35,7 +75,7 @@
     -webkit-box-shadow: 0 0 5px #ccc;
     box-shadow: 0 0 5px #ccc;*/
     //border:  5px solid #d1e9ef;
-    left: -5px;
+    //left: -5px;
     //background: #fff;
     
     /*fix other elements on the page moving (on Chrome)*/

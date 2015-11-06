@@ -1,0 +1,28 @@
+.form-main{
+  padding: 33px 0px 0px 0px;
+  &_inner{
+    input{
+      border: none;
+      width: 360px;
+      height: 40px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }
+  &_button{
+    input{
+      border: none;
+      width: 360px;
+      height: 40px;
+      text-align: center;
+      font-family: OpenSansSemiBold;
+      color: #ffffff;
+      font-size: 15px;
+      text-transform: uppercase;
+      background-color: #bf5f41;
+      &:hover{
+        background-color: #9c4d35;
+      }
+    }
+  }
+}

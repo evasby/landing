@@ -1,4 +1,13 @@
 .header{
   @include clearfix();
   padding: 22px 0px;
+  &__fixed{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    background-color: #ffffff;
+    @include def-opacity(0.9);
+  }
 }

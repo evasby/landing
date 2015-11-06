@@ -14,5 +14,9 @@
     &:hover{
       border-bottom: 2px solid #41acbf;
     }
+    &__active{
+      @include link(#41acbf, #41acbf);
+      border-bottom: 2px solid #41acbf;
+    }
   }
 }
