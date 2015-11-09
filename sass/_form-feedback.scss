@@ -1,0 +1,89 @@
+.form-feedback{
+  text-align: center;
+  .messages{
+    display: none;
+  }
+  &_title{
+    font-size: 26.5px;
+    font-family: PTSansBold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 27px;
+  }
+  &_inner{
+    margin-bottom: 21px;
+    input{
+      width: 335px;
+      height: 42px;
+      border: 1px solid #c7c7c7;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 18px;
+      &.error{
+        border-color: #8c2e0b;
+      }
+    }
+  }
+  &_button{
+    position: relative;
+    input{
+      border: none;
+      font-size: 22.5px;
+      text-transform: uppercase;
+      color: #ffffff;
+      width: 335px;
+      height: 42px;
+      background-color: #41acbf;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      @include def-opacity(0.8);
+      &:hover{
+        @include def-opacity(1);
+      }
+    }
+    .captcha{
+      width: 335px;
+      margin: 0 auto;
+      label{
+        color: #c7c7c7;
+        margin-bottom: 10px;
+      }
+      input{
+        border: none;
+        font-size: 22.5px;
+        text-transform: uppercase;
+        color: inherit;
+        text-align: center;
+        width: 120px;
+        height: 42px;
+        border: 1px solid #c7c7c7;
+        background-color: #ffffff;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        @include def-opacity(1);
+        &.error{
+          border-color: #8c2e0b;
+        }
+      }
+      .description{
+        display: none;
+      }
+    }
+    .ajax-progress{
+      position: absolute;
+      //top: 10px;
+      //left: -6px;
+      bottom: 14px;
+      right: 70px;
+      .throbber {
+        //background: transparent url('../image/ajax-loader.gif') no-repeat 0px 0px; /* tweak this according to your gif */
+        float: left;
+        height: 15px; /* tweak this according to your gif */
+        width: 15px; /* tweak this according to your gif */
+        margin: 0px;
+      }
+    }
+  }
+}

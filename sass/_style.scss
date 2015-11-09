@@ -1,6 +1,7 @@
 ﻿@import "mymix";
 @import "fonts";
 @import "animation";
+@import "colorbox";
 //**********************************************************/
 //**********************************************************/
 body{
@@ -40,17 +41,28 @@ pre{
 h1, h2, h3, h4, h5, h6{
   
 }
-input::-moz-placeholder {
-
+::-webkit-input-placeholder{
+  color:#c7c7c7;
+  font-size: 18px;
+  text-transform: uppercase;
 }
-textarea::-moz-placeholder {
-
-}
-input::-webkit-input-placeholder{
-
-}
-textarea::-webkit-input-placeholder{
-
+::-moz-placeholder{
+  color:#c7c7c7;
+  font-size: 18px;
+  text-transform: uppercase;
+  @include def-opacity(1);
+}/* Firefox 19+ */
+:-moz-placeholder{
+  color:#c7c7c7;
+  font-size: 18px;
+  text-transform: uppercase;
+  @include def-opacity(1);
+}/* Firefox 18- */
+:-ms-input-placeholder{
+  color:#c7c7c7;
+  font-size: 18px;
+  text-transform: uppercase;
+  @include def-opacity(1);
 }
 input{
   &:focus{
@@ -76,6 +88,7 @@ textarea{
 @import "contacts";
 @import "webformat";
 @import "menu";
+@import "main";
 @import "main1";
 @import "main2";
 @import "main3";
@@ -91,3 +104,4 @@ textarea{
 @import "main9";
 @import "copyright";
 @import "footer";
+@import "form-feedback";

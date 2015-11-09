@@ -48,8 +48,8 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: '/www/landing/layout',
-                        //dest: '/home/evasby/www/iphone.wfs.by/sites/all/themes/iphone',
+                        //dest: '/www/landing/layout',
+                        dest: '/www/landing/sites/all/themes/landing',
                         port: 21
                     },
                     files: [
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
                         }
                     ]
 			    },
-                php: {
+                /*php: {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
@@ -79,8 +79,8 @@ module.exports = function(grunt) {
                             ]
                         }
                     ]
-                },
-                js: {
+                },*/
+                /*js: {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
@@ -96,12 +96,13 @@ module.exports = function(grunt) {
                             ]
                         }
                     ]
-                },
+                },*/
                 dist: {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: '/www/landing/layout',
+                        //dest: '/www/landing/layout',
+                        dest: '/www/landing/sites/all/themes/landing',
                         port: 21
                     },
                     files: [
