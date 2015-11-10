@@ -69,6 +69,7 @@
       box-sizing: border-box;
       &:hover{
         background-color: #9c4d35;
+        cursor: pointer;
       }
     }
     .captcha{
@@ -103,13 +104,13 @@
       position: absolute;
       //top: 10px;
       //left: -6px;
-      bottom: 14px;
-      right: 320px;
+      bottom: 8px;
+      right: 360px;
       .throbber {
-        //background: transparent url('../image/ajax-loader.gif') no-repeat 0px 0px; /* tweak this according to your gif */
+        background: transparent url('../image/ajax-loader-blue.png') no-repeat 0px 0px; /* tweak this according to your gif */
         float: left;
-        height: 15px; /* tweak this according to your gif */
-        width: 15px; /* tweak this according to your gif */
+        height: 25px; /* tweak this according to your gif */
+        width: 25px; /* tweak this according to your gif */
         margin: 0px;
       }
     }

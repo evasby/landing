@@ -8,8 +8,8 @@
     font-family: PTSansBold;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 35px;
-    margin-bottom: 27px;
+    max-width: 460px;
+    margin: 35px auto 27px auto;
   }
   &_inner{
     margin-bottom: 21px;
@@ -75,13 +75,13 @@
       position: absolute;
       //top: 10px;
       //left: -6px;
-      bottom: 14px;
-      right: 70px;
+      bottom: 9px;
+      right: 105px;
       .throbber {
-        //background: transparent url('../image/ajax-loader.gif') no-repeat 0px 0px; /* tweak this according to your gif */
+        background: transparent url('../image/ajax-loader-white.png') no-repeat 0px 0px; /* tweak this according to your gif */
         float: left;
-        height: 15px; /* tweak this according to your gif */
-        width: 15px; /* tweak this according to your gif */
+        height: 25px; /* tweak this according to your gif */
+        width: 25px; /* tweak this according to your gif */
         margin: 0px;
       }
     }
