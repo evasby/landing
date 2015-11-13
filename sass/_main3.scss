@@ -1,6 +1,8 @@
 .main3{
   background-color: #41acbf;
   padding-top: 30px;
+  min-height: 644px;
+  overflow: hidden;
   &_wrap{
     @include clearfix();
   }

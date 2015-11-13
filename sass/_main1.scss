@@ -1,8 +1,13 @@
 .main1{
   height: 439px;
-  background: url('../image/slider-1920-1.jpg') no-repeat;
-  background-size: cover;
-  text-align: center;
+  overflow: hidden;
+  &_item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 439px;
+  }
   &_text{
     padding: 125px 0px 35px 0px;
     p{
