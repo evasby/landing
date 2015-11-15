@@ -1,9 +1,9 @@
 .menu{
   float: left;
-  padding: 7px 0px 0px 40px;
+  padding: 7px 0px 0px 22px;
   &_item{
     display: inline;
-    margin-right: 12px;
+    margin-right: 5px;
   }
   &_link{
     @include link(#83888b, #41acbf);
