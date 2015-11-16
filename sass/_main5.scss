@@ -119,9 +119,9 @@
 		&:first-child{
 			@include after{
 				display: block;
-				left: -474px;
+				left: -574px;
 				top: 48%;
-				width: 500px;
+				width: 600px;
 				height: 1px;
 				border-bottom: 4px dashed #8ec6d0;
 		    -webkit-transform: rotate(45deg);
@@ -141,9 +141,9 @@
 		&:last-child{
 			@include before{
 				display: block;
-				right: -474px;
+				right: -574px;
 				top: 48%;
-				width: 500px;
+				width: 600px;
 				height: 1px;
 				border-bottom: 4px dashed #8ec6d0;
 		    -webkit-transform: rotate(45deg);
